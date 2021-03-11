@@ -1,0 +1,56 @@
+h4 a{
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 110%;
+}
+.article{
+    width: 80%;
+    margin-left: 10%;
+   display: grid;
+   grid-template-columns: 70% 30%;
+   grid-gap: 0% 2%;
+}
+.article .article1{
+    text-align: center;
+    padding: 7%;
+    background:  white;
+}
+.article .article1 .article11 a{
+    text-decoration: none;
+    color: orangered;
+}
+.articles{
+    padding: 5%;
+    background: white;
+    margin-bottom: 5%;
+}
+.articles .article2 h3{
+    margin-left: 5%;
+}
+.articles .article2 ol li{
+    margin-top: 7%;
+    padding: 5%;
+}
+.articles .article2 ol li a{
+    text-decoration: none;
+}
+.articles .article2 ol li a:hover{
+    color: orangered;
+}
+.articles .article4{
+    margin-top: 60%;
+}
+.articles .article4 .article4s {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 5%;
+    margin-top: 10%;
+}
+.articles .article4 .article4s a{
+    margin-top: 10%;
+    margin-left: 3% ;
+    text-decoration: none;
+}
+.articles .article4 .article4s a:hover{
+    color: orangered;
+}

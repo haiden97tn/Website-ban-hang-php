@@ -1,0 +1,105 @@
+h2{
+    margin-left: 10%;
+    color: red
+}
+.content{
+    display: grid;
+    grid-template-columns: 40% 58%;
+    grid-gap: 2%;
+    width: 80%;
+    background: white;
+    margin-left: 10%;
+    border-radius: 5px;
+    padding-bottom: 2%;
+}
+.content .support {
+    padding-left: 8%;
+}
+.content .support .child-title {
+    font-size: 130%;
+    margin-top: 2%;
+    padding-left: 2%;
+    border-left: 3px solid orangered;
+}
+.content .support .form{
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border: 1px solid rgb(129, 127, 127);
+    width: 80%;
+    border-radius: 5px;
+}
+.content .support .form table tr td{
+    padding-top: 6%;
+}
+.content .support .form table tr .label{
+    font-weight: 550;
+}
+.content .support .form table tr input{
+    padding: 4%;
+    width: 93%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.content .support .form table tr textarea{
+    padding: 4%;
+    width: 93%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.content .support .form table tr button{
+    background: orangered;
+    color: white;
+    padding: 4% 10%;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 7%;
+}
+::placeholder{
+    font-size: 95%;
+}
+.content .support .form table tr input:focus{
+    outline:0;
+    border: 1px solid rgb(228, 87, 87);
+    color: blue;
+}
+.content .support .form table tr textarea:focus{
+    outline:0;
+    border: 1px solid rgb(228, 87, 87);
+    color: blue;
+}
+.content .support .form table tr button:focus{
+    outline:0;
+    border: 1px solid gray;
+}
+.content .information{
+    padding-left: 8%;
+    padding-right: 6%;
+}
+.content .information .child-title {
+    font-size: 130%;
+    margin-top: 2%;
+    padding-left: 2%;
+    border-left: 3px solid blue;
+}
+.content .information .child-title .title-2{
+    font-size: 70%;
+    color: rgb(241, 160, 9);
+}
+.content .information .content-information{
+    border-top: 1px solid gray;
+    margin-top: 5%;
+}
+.content .information .content-information ul li{
+    font-size: 110%;
+    padding-top: 3%;
+}
+.content .information .content-information ul li strong{
+    color: orangered;
+}
+.content .information .content-information ul li em{
+    color: blue;
+}
+.content .information .content-information .map{
+    width: 100%;
+}
